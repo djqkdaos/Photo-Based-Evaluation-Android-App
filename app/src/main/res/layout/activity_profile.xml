@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.clothes.profile.profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <!-- top toolbar -->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/top_profilebar"/>
+
+        </RelativeLayout>
+
+        <!-- Middle section (body) -->
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relLayout1">
+
+            <include layout="@layout/layout_center_viewpager"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/evaluation"
+                app:border_width="2dp"
+                app:border_color="#FF000000"
+                android:id="@+id/imgView_profile"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/txtV_userEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_below="@+id/imgView_profile"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtV_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtV_userEmail"
+                android:layout_centerHorizontal="true"
+                android:text="TextView"
+                android:textSize="15dp" />
+
+            <ListView
+                android:id="@+id/result_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/txtV_userName"
+                android:layout_above="@+id/relativeLayout" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="0dp"
+                android:id="@+id/relativeLayout">
+
+                <include layout="@layout/layout_bottom_navigation_view"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <!-- bottom navigation -->
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "94504103251",
+    "firebase_url": "https://clothes-cd684.firebaseio.com",
+    "project_id": "clothes-cd684",
+    "storage_bucket": "clothes-cd684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94504103251:android:e4536c76d5688bb5",
+        "android_client_info": {
+          "package_name": "com.example.admin.clothes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94504103251-p2e002j87qk5oh7cavrf02d4ch0i8cis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.clothes",
+            "certificate_hash": "51bc6d19893e4af96086a3c9c0bb3fb023f853b6"
+          }
+        },
+        {
+          "client_id": "94504103251-m75mk4ono3la9kik2b16stt7a8r1qf3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAahG6Oe51s3EF9Rfzp7WuWlDE1BzJ6TzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94504103251-m75mk4ono3la9kik2b16stt7a8r1qf3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

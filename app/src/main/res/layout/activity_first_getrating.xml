@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.clothes.firstGetrating.firstGetrating">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <!-- top toolbar -->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/top_getratingbar" />
+
+        </RelativeLayout>
+
+        <!-- Middle section (body) -->
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relLayout1">
+
+            <include
+                layout="@layout/layout_center_viewpager"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/imgV_user_upload"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                 />
+
+            <Button
+                android:id="@+id/btn_choose_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="61dp"
+                android:text="사진선택"
+                android:layout_below="@+id/edit_oneline"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/btn_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="52dp"
+                android:text="평가받기 시작"
+                android:layout_below="@+id/edit_oneline"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:id="@+id/edit_oneline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="오늘 나어때?"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/txtView_oneline"
+                android:layout_alignParentStart="true"
+                android:maxLength="20"/>
+
+            <TextView
+                android:id="@+id/txtView_oneline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="한줄메세지를 입력해주세요."
+                android:textSize="15dp"
+                android:layout_below="@+id/imgV_user_upload"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/txtView_img_Path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:layout_below="@+id/imgV_user_upload"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+
+        <!-- bottom navigation -->
+        <include layout="@layout/layout_bottom_navigation_view" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
