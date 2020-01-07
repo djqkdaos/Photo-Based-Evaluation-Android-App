@@ -25,7 +25,6 @@ Google Account Login
 ## [Screenshot]
 
 <img src="https://user-images.githubusercontent.com/21208735/71892036-57b64680-318b-11ea-8b1b-0b05e2d903d3.png" width="50%" height="50%">
-![Screenshot_20170625-150406](https://user-images.githubusercontent.com/21208735/71892039-57b64680-318b-11ea-84f2-2cff97a45585.png){: width="50%" height="50%"}
 <img src="https://user-images.githubusercontent.com/21208735/71892039-57b64680-318b-11ea-84f2-2cff97a45585.png" width="50%" height="50%">
 ![Screenshot_20170625-150448](https://user-images.githubusercontent.com/21208735/71892040-584edd00-318b-11ea-9fb8-01bbb746c4db.png){: width="50%" height="50%"}
 ![Screenshot_20170625-150535](https://user-images.githubusercontent.com/21208735/71892041-584edd00-318b-11ea-8917-59707ef9cfe4.png){: width="50%" height="50%"}
