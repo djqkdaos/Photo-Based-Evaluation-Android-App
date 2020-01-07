@@ -24,8 +24,42 @@ Google Account Login
 
 ## [Screenshot]
 
-<img src="https://user-images.githubusercontent.com/21208735/71892036-57b64680-318b-11ea-8b1b-0b05e2d903d3.png" width="40%" height="40%">
-<img src="https://user-images.githubusercontent.com/21208735/71892039-57b64680-318b-11ea-84f2-2cff97a45585.png" width="40%" height="40%">
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">
+      <img src="https://user-images.githubusercontent.com/21208735/71892036-57b64680-318b-11ea-8b1b-0b05e2d903d3.png" width="40%" height="40%">
+    </th>
+    <th class="tg-0lax">
+      <img src="https://user-images.githubusercontent.com/21208735/71892039-57b64680-318b-11ea-84f2-2cff97a45585.png" width="40%" height="40%">
+    </th>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</table>
+
+
 
 <img src="https://user-images.githubusercontent.com/21208735/71892040-584edd00-318b-11ea-9fb8-01bbb746c4db.png" width="40%" height="40%">
 
